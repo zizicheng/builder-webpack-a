@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ${ require('raw-loader!./meta.html')}
+    <title>Document</title>
+    <script>
+        // eslint-disable-next-line
+        ${
+            require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js')
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
